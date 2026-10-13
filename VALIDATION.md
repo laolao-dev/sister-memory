@@ -1,0 +1,3 @@
+# Validation boundary
+
+Publication checks (2026-10-13 JST): clean npm ci --ignore-scripts from the dependency lock; Node.js 24. npm test returned 5/5 passed: real stdio MCP client/server list/remember/recall using a new temporary SQLite DB, deduplication, Chinese/tag search, supersession and soft deletion. Test databases are temporary synthetic data; no installed production data path is referenced. HTTP surface, installed PCE, browser/global collectors and full real-platform capture: excluded/NOT_RUN. Existing MIT terms are retained; the original author's local-machine alias in the notice is normalized to the authorized public handle laolao-dev in this independent copy.

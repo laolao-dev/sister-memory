@@ -1,0 +1,1 @@
+Original Sister Memory MIT notice is preserved. External npm dependencies are listed and pinned in package-lock.json; their implementation code is not bundled. Browser-capture/OpenMem and installed PCE code are excluded from this snapshot.

@@ -1,0 +1,21 @@
+{
+  "name": "sister-memory",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A local-first shared memory bridge for ChatGPT and Codex.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node src/server.mjs --stdio",
+    "stdio": "node src/server.mjs --stdio",
+    "test": "node --test test/store.test.mjs test/mcp.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "express": "5.2.1",
+    "zod": "4.6.5"
+  },
+  "license": "MIT"
+}
