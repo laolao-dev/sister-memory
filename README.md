@@ -1,5 +1,13 @@
 # Sister Memory — local stdio core
 
+## FINAL ARCHIVE RELEASE — v0.1.0
+
+This is the final archive of the currently completed public scope, dated 2026-10-14. It does not imply future maintenance, production maturity, commercial validation, or renewed development.
+
+Only the previously isolated Store, stdio Server, synthetic tests and dependency metadata are released. Production databases/WAL/SHM, chats/events, PCE ledger, collectors, hooks, startup configuration, credentials, backups and private Git history are excluded. Full-platform capture is PARTIAL, not completed by this core release. Production remains PARTIAL_STABLE_PARKED.
+
+See CHANGELOG.md, RELEASE_NOTES.md, RELEASE_ASSETS.md, PUBLIC_FILE_MANIFEST.json and SHA256SUMS for release scope, validation and integrity records.
+
 A small local SQLite memory store and MCP stdio server. It supports remember, recall, context assembly, list/status, and soft deletion, with namespaces and source metadata.
 
 ## Install and run

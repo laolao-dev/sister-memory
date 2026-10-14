@@ -1,11 +1,23 @@
 {
   "project": "P6",
-  "version": "v0.1.0-experimental",
+  "repository": "https://github.com/laolao-dev/sister-memory",
+  "version": "v0.1.0",
+  "release_type": "FINAL ARCHIVE RELEASE",
+  "source_public_commit": "4e1a0a511974dd5feddd171c86b834c177964982",
+  "excludes": [
+    "PUBLIC_FILE_MANIFEST.json",
+    "SHA256SUMS"
+  ],
   "files": [
     {
       "path": ".gitignore",
       "bytes": 94,
       "sha256": "003ab602f40762a9d3e02df9738220fc0a907e39b3f061301c1b2c4177d0e2de"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 824,
+      "sha256": "50b3edd65dc0cfb2dbbbce450ef1682b22e751ad3a6d3f270fdf7700e5c68085"
     },
     {
       "path": "LICENSE",
@@ -14,13 +26,23 @@
     },
     {
       "path": "PUBLICATION_SCOPE.md",
-      "bytes": 242,
-      "sha256": "415df40d039a3b26bb55e0987b350637684518d9f9fb1bfa4d956acbe721d319"
+      "bytes": 914,
+      "sha256": "3d271bfc0ff68d3c3513ef131d96403cffee8f771130f2343a8dbda21f8be53d"
     },
     {
       "path": "README.md",
-      "bytes": 1869,
-      "sha256": "a82ad7e7a80576e349fd8401ebe67f9afe94db0238ed2792082413e410e248d2"
+      "bytes": 2622,
+      "sha256": "c7d87a80db4f779f8c1dead7b27d673e10821ac6e42738255fdbbd456293f9e5"
+    },
+    {
+      "path": "RELEASE_ASSETS.md",
+      "bytes": 1152,
+      "sha256": "39aa70ee5e007789d460f27f37e8582a9ac564575aaa57c6f6db886cbcc78a83"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 1362,
+      "sha256": "712de35217c98b237612d3869b49231619002d57f60aad51d0dec117f8db076f"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -29,8 +51,8 @@
     },
     {
       "path": "VALIDATION.md",
-      "bytes": 679,
-      "sha256": "4b895322b95fa13521a6b3db6b465428cbc87556dd8eaf807aff5cfdead42d04"
+      "bytes": 1787,
+      "sha256": "df7af8611438d6a671a085bfbbb507d3730d88ee1cc03fe97fc3ea849aa9943e"
     },
     {
       "path": "package-lock.json",
